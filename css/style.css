@@ -1,0 +1,275 @@
+
+
+
+
+
+
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+
+
+}
+.nav{
+    background-color: rgb(142, 2, 144);
+    padding: 20px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+  
+
+
+
+
+.s{
+    color: aliceblue;
+    
+
+}
+.a1{
+    font-size: 30px;
+    cursor: pointer;
+    padding-right: 390px;
+    text-shadow: 2px 2px 2px black;
+    
+}
+.button {
+    text-decoration: none;
+    position: absolute;
+    border: none;
+    font-size: 14px;
+    font-family: inherit;
+    color: black;
+    width: 9em;
+    height: 3em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 300%;
+    border-radius: 30px;
+    z-index: 1;
+   }
+   
+   .button:hover {
+    animation: ani 8s linear infinite;
+    border: none;
+   }
+   
+   @keyframes ani {
+    0% {
+     background-position: 0%;
+    }
+   
+    100% {
+     background-position: 400%;
+    }
+   }
+   
+   .button:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+   }
+   
+   .button:hover::before {
+    filter: blur(20px);
+   }
+   
+   .button:active {
+    background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+   }
+.fa-brands {
+    font-size: 20px;
+}
+.log{
+    margin-right:  450px;
+}
+.a2{
+    color: white;
+   
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    transition:0.4s;
+
+}
+.a2:hover{
+    color: #fbc2eb;
+}
+.content{
+    flex-grow: 1;
+    padding: 0 var;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container-texts{
+    top: 100px;
+    padding-left: 100px;
+}
+h1{
+    font-size: 45px;
+    margin: 1.7rem 0;
+    font-weight: bold;
+    
+}
+h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+h4{
+    font-size: 15px;
+   
+    font-weight: bold;
+}
+.a3{
+    color: #9b0a8a;
+}
+.social{
+    margin-top: 80px;
+}
+.social img{
+    margin-right: 20px;
+    width: 40px;
+    transition: 0.4S;
+}
+.social img:hover{
+    transform: scale(1.2);
+}
+.about{
+    background-color: rgb(251, 247, 251);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.container-imgs{
+    width: 100%;
+    height: 400px;
+    padding: 15px;
+}
+.container-texts{
+    width: 50%;
+    min-height: 400px;
+    }
+span{
+    color:rgb(159, 23, 196);
+} 
+.services{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+
+    padding: 20px;
+    text-align: center;
+    flex-wrap: nowrap;
+    box-shadow: 8px 8px 8px purple inset;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+}
+
+  
+
+
+.c4{
+    margin-top: 49px;
+    padding-left: 30px;
+    color:rgb(159, 23, 196);
+    font-weight: bold;
+}
+.c5{
+    margin-top: 30px;
+    padding-left: 10px;
+    font-weight: 50PX;
+}
+.c6{
+    border: 2px solid white;
+    background-color: rgb(243, 237, 244);
+    margin: 20px;
+    width: 25%;
+    height: auto;
+}
+.skills{
+    background-color: rgb(251, 247, 251);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer{
+    padding: 2rem;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    
+
+
+}
+.container.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+footer.container footer p{
+    color: white;
+    text-align: center;
+    width: 500px;
+    font-weight: bold;
+
+    
+}
+.pf{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+}
+.end{
+    color: aliceblue;
+    margin-top: 1rem;
+    font-family:cursive;
+    font-style: italic;
+
+
+
+}
+ul li{
+    list-style: none;
+}
+.li{
+    margin-top: 10px;
+    list-style: none;
+}
+.cont{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+

@@ -1,0 +1,170 @@
+
+@media only screen and  (max-width:600px){
+   .nav{
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 60px;
+      
+      }
+   .content{
+   display: flex;
+   flex-direction: column;
+   }
+   
+   .container-texts{
+      padding-left: 0px;
+}
+   .button{
+   margin-top: 9px;
+   }
+   .about{
+   display: flex;
+   flex-direction: column;
+
+   }
+   .box{
+   display: flex;
+   flex-direction: column; 
+   }
+   .c6{
+   width: 100%;
+   }
+   .container.footer{
+   display: flex;
+   flex-direction: column;
+
+   }
+   .skills{
+   display: flex;
+   flex-direction: column;
+
+   }
+   
+} 
+
+@media only screen and (min-width :600px){
+
+   .nav{
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 60px;
+      
+      }
+   .content{
+   display: flex;
+   flex-direction: column;
+   }
+   
+   .container-texts{
+      padding-left: 0px;
+}
+   .button{
+   margin-top: 9px;
+   }
+   .about{
+   display: flex;
+   flex-direction: column;
+
+   }
+   .box{
+   display: flex;
+   flex-direction: column; 
+   }
+   .c6{
+   width: 100%;
+   }
+   .container.footer{
+   display: flex;
+   flex-direction: column;
+
+   }
+   .skills{
+   display: flex;
+   flex-direction: column;
+
+   }
+} 
+@media only screen and (min-width:768px){
+   .nav{
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 60px;
+     }
+     .content{
+      display: flex;
+      flex-direction: column;
+   
+     }
+     .container-texts{
+     
+      top: 10px;
+      padding-left: 1%;
+   } 
+   .button{
+      margin-top: 9px;
+     }
+     .about{
+      display: flex;
+      flex-direction: row;
+   
+     }
+     .box{
+      display: flex;
+      flex-direction: column;
+     }
+     .c6{
+      width: 100%;
+     }
+     .container.footer{
+      display: flex;
+      flex-direction: column;
+   
+     }
+     .skills{
+      display: flex;
+      flex-direction: column;
+   }
+} 
+@media only screen and (min-width:992px){
+   .nav{
+      background-color: rgb(142, 2, 144);
+      padding: 30px;
+      padding-left: 40px;
+      display: flex;
+      flex-direction: row;
+     }
+     .content{
+      display: flex;
+      flex-direction: row;
+   
+     }
+     .container-texts{
+     
+      top: 10px;
+      padding-left: 1%;
+   } 
+   .button{
+      margin-top: 9px;
+     }
+     .about{
+      display: flex;
+      flex-direction: row;
+   
+     }
+     .box{
+      display: flex;
+      flex-direction: row;
+     }
+     .c6{
+      width: 100%;
+     }
+     .container.footer{
+      display: flex;
+      flex-direction: row;
+   
+     }
+     .skills{
+      display: flex;
+      flex-direction: row;
+   }
+}
